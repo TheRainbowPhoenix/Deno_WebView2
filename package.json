@@ -1,0 +1,14 @@
+{
+  "name": "deno-vw2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cd bin && deno run --allow-run --allow-read --allow-net --allow-env --allow-ffi --unstable ../src/mod.ts",
+    "test": "cd bin && deno run --allow-run --allow-read --allow-net --allow-env --allow-ffi --unstable ../src/test.ts",
+    "compile": "cd bin && deno compile --allow-run --allow-read --allow-net --allow-env --allow-ffi --unstable --output app.exe ../src/mod.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

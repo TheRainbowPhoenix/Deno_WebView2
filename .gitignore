@@ -1,0 +1,6 @@
+*.exe
+lib-src/build
+lib-src/libs
+
+node_modules
+bin/*.exe

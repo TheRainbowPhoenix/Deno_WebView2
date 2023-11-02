@@ -1,0 +1,10 @@
+{
+  "imports": {},
+  "tasks": {
+    "dev": "cd bin && deno run --allow-run --allow-read --allow-net --allow-env --allow-ffi --unstable ../src/mod.ts",
+    "compile": "deno compile --allow-run --allow-read --allow-net --allow-env --allow-ffi --unstable --output bin/src.exe src/mod.ts"
+  },
+  "compilerOptions": {
+    "strictNullChecks": false
+  }
+}
