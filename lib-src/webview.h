@@ -1399,7 +1399,7 @@ private:
 
         browserExecutableFolder = browserExecutableFolderBuff;
 
-        wprintf(L"WEBVIEW2_PATH is set to: %s\n", browserExecutableFolder);
+        // wprintf(L"WEBVIEW2_PATH is set to: %s\n", browserExecutableFolder);
     }
 
     m_com_handler = new webview2_com_handler(
@@ -1414,7 +1414,7 @@ private:
     HRESULT res = CreateCoreWebView2EnvironmentWithOptions(
         browserExecutableFolder, userDataFolder, nullptr, m_com_handler);
     if (res != S_OK) {
-        wprintf(L"res != S_OK");
+        // wprintf(L"CreateCoreWebView2EnvironmentWithOptions failed...");
       return false;
     }
     MSG msg = {};
