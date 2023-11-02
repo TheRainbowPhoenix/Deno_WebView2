@@ -4,3 +4,5 @@ lib-src/libs
 
 node_modules
 bin/*.exe
+
+*.pyc
