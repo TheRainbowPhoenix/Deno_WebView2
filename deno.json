@@ -2,6 +2,7 @@
   "imports": {},
   "tasks": {
     "dev": "cd bin && deno run --allow-run --allow-read --allow-net --allow-env --allow-ffi --unstable ../src/mod.ts",
+    "httpSrv": "cd bin && deno run --allow-run --allow-read --allow-net --allow-env --allow-ffi --unstable ../src/httpSrv.ts",
     "compile": "deno compile --allow-run --allow-read --allow-net --allow-env --allow-ffi --unstable --output bin/app.exe src/mod.ts"
   },
   "compilerOptions": {

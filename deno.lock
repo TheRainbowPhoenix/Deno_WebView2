@@ -1,0 +1,23 @@
+{
+  "version": "2",
+  "remote": {
+    "https://deno.land/std@0.79.0/_util/assert.ts": "e1f76e77c5ccb5a8e0dbbbe6cce3a56d2556c8cb5a9a8802fc9565af72462149",
+    "https://deno.land/std@0.79.0/async/deferred.ts": "ecdb71319e164ec4ace5a44e3ee991b52c21bfc19e498acdf8eccdc0b1184f70",
+    "https://deno.land/std@0.79.0/async/delay.ts": "35957d585a6e3dd87706858fb1d6b551cb278271b03f52c5a2cb70e65e00c26a",
+    "https://deno.land/std@0.79.0/async/mod.ts": "39f2602a005805dd1e6b9da4ee5391b14d15e8fec4fa5494a6165c599911d746",
+    "https://deno.land/std@0.79.0/async/mux_async_iterator.ts": "2532c6f448fda34db7ab9504746db671c32425dd4ffa96eeb9df744c3038c106",
+    "https://deno.land/std@0.79.0/async/pool.ts": "a499691231d8c249f044f69d204b479ad3af7f115e0b37342829eff076bc2450",
+    "https://deno.land/std@0.79.0/bytes/mod.ts": "b1a149ac741728db00bda9ce1a2d044f248edd5ac95e708a6cc501bfd3adb4a7",
+    "https://deno.land/std@0.79.0/datetime/formatter.ts": "2862d48a44d2a307795deaeb913773c62704e79e3a21b76f11443f2a8650de32",
+    "https://deno.land/std@0.79.0/datetime/mod.ts": "5d31444e61524f399ac17aa75401b7e47a7b2f6ccaa36575416a1253a8f61afa",
+    "https://deno.land/std@0.79.0/datetime/tokenizer.ts": "ae21a459f2f017ac81b1b49caa81174b6b8ab8a4d8d82195dcf25bb67b565c71",
+    "https://deno.land/std@0.79.0/encoding/utf8.ts": "1b7e77db9a12363c67872f8a208886ca1329f160c1ca9133b13d2ed399688b99",
+    "https://deno.land/std@0.79.0/http/_io.ts": "8e1ed7effe99446535a98ac0cdcfd544265c78c46e4cef5a8c5f8e31037711d9",
+    "https://deno.land/std@0.79.0/http/cookie.ts": "44e1451d419341022b681f741bcb5950fe06a3017b1f945042d5fe6bfea05418",
+    "https://deno.land/std@0.79.0/http/http_status.ts": "0ecc0799a208f49452023b1b927106ba5a2c13cc6cf6666345db028239d554ab",
+    "https://deno.land/std@0.79.0/http/mod.ts": "8b2e2db98b0f664f66d5797cc7728468e336bec0d5daf88a9557396f22f86f8a",
+    "https://deno.land/std@0.79.0/http/server.ts": "282bb3b13da077a760083b465843fc2b8bf8936c3e22c514f6ae695db0721866",
+    "https://deno.land/std@0.79.0/io/bufio.ts": "1ff50c4d5e0db2dfb3072f4a9e3167bd658fedbdc92d72f0ca306f3bc9031a2f",
+    "https://deno.land/std@0.79.0/textproto/mod.ts": "4c378eda3cb6216608bb4c3a34201761c65f6980c4669455ca224c330cd5b790"
+  }
+}

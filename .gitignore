@@ -1,8 +1,13 @@
 *.exe
 lib-src/build
 lib-src/libs
+lib-src/examples/zig-cache
+lib-src/examples/dll
+zig-src/
+tmp
 
 node_modules
 bin/*.exe
 
 *.pyc
+
