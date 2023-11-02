@@ -34,6 +34,9 @@ void increment(const char *seq, const char *req, void *arg) {
   strcat(result, "{\"count\": ");
   strcat(result, count_string);
   strcat(result, "}");
+
+  printf("Count: %u\n", context->count);
+
   webview_return(context->w, seq, 0, result);
 }
 

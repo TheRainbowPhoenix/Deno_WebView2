@@ -2,8 +2,8 @@ const std = @import("std");
 
 pub fn build(b: *std.build.Builder) void {
     // const exe = b.addExecutable(.{ .name = "basic" });
-    const exe = b.addExecutable("basic", null);
-    exe.addCSourceFile("basic.c", &[_][]const u8{});
+    const exe = b.addExecutable("bind", null);
+    exe.addCSourceFile("bind.c", &[_][]const u8{});
     // exe.addCSourceFile(.{
     //     .file = .{ .path = "basic.c" },
     //     .flags = &.{
